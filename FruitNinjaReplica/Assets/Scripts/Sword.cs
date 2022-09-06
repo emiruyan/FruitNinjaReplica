@@ -29,7 +29,7 @@ public class Sword : MonoBehaviour
 
    private void CutSpawner()
    {
-      Vector2 swipeEnd = Camera.main.ScreenToWorldPoint(Input.mousePosition);//swipeEnde bir mousePozisyonu atadık.
+      Vector2 swipeEnd = Camera.main.ScreenToWorldPoint(Input.mousePosition);//swipeEnde mousePozisyonu atadık.
       GameObject cutInstance = Instantiate(cutPrefab, swipeStart, Quaternion.identity);
       //cutPrefab'i Instantiete ile çoğaltıp cutInstance'a atıyoruz.
       
